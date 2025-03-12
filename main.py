@@ -33,7 +33,11 @@ while opcion != 5:
         
         
     elif opcion==2:
-        print("estoy en la 2")
+        #utilizando ciclos for en python recorrer LISTAS
+        for productoSeleccionado in productos: 
+            print(productoSeleccionado["nombre"])
+            
+        
     elif opcion==3:
         print("estoy en la 3")
     elif opcion==4:
